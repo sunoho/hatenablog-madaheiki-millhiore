@@ -28,6 +28,15 @@
   margin: 0 !important;
   padding: 0 !important;
 }
+.entry-content p {
+  line-height: 2;
+}
+.entry-content p img,
+.entry-content figure img {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #454545;
+}
 .table-of-contents {
   margin: 0 !important;
   padding: 1rem 1rem 1rem 2rem !important;
@@ -66,7 +75,7 @@ h3{
   line-height: 2.0;
 }
 .entry-categories {
-  text-align: right;
+  //text-align: right;
 }
 
 /* Amazon Associate カード */
@@ -105,6 +114,7 @@ h3{
       color: #232f3e;
       background-color: #fedb69;
       box-sizing: border-box;
+      margin-top: 1rem;
       padding: 12px;
       border-radius: 8px;
       text-align: center;
